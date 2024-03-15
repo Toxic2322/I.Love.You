@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #77dd77; /* pastel green */
+            color: #8b0000; /* dark red */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #video {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1 id="title">Do you want to be my girlfriend?</h1>
+        <button id="yes">Yes</button>
+        <button id="no">No</button>
+    </div>
+    <h2 id="aboveVideo" style="display: none;">Yuppieee!</h2>
+    <video id="video" controls style="display: none;">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <h2 id="belowVideo" style="display: none;">I love you! :3</h2>
+    <script src="script.js"></script>
+</body>
+</html>
